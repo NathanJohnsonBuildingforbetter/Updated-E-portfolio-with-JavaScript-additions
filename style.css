@@ -101,13 +101,13 @@ Landing Page
 }
 
 .header{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    
+   
+    
     width: 100%;
     max-width: 1000px;
     padding: 0 30px;
+    margin: 0 auto;
 }
 .header__para{
     font-size: 24px;
@@ -149,10 +149,10 @@ Landing Page
 }
 
 .scroll{
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
    
 }
 
